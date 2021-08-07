@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d9543ad-cfaf-4e20-a5ea-9067f4c26f0a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X9zDa3WA1FUsp94FrkHUNVSBib" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\02_source\ssrr自动签到" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\文件\ssrr自动签到" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.login">
+    <configuration name="30daytest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ssrr自动签到" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Program Files\Annaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/30daytest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="ssrr自动签到" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Program Files\Annaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="checkin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ssrr自动签到" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Program Files\Annaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/checkin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="header2dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ssrr自动签到" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Program Files\Annaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/header2dict.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ssrr自动签到" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Program Files\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="send" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ssrr自动签到" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Program Files\Annaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/send.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.30daytest" />
+      <item itemvalue="Python.checkin" />
+      <item itemvalue="Python.login" />
+      <item itemvalue="Python.send" />
+      <item itemvalue="Python.header2dict" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.login" />
+        <item itemvalue="Python.header2dict" />
+        <item itemvalue="Python.send" />
+        <item itemvalue="Python.30daytest" />
+        <item itemvalue="Python.checkin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d9543ad-cfaf-4e20-a5ea-9067f4c26f0a" name="Default Changelist" comment="" />
+      <created>1580472979257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580472979257</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="995" y="336" key="#checkin" timestamp="1592194028709">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="995" y="336" key="#checkin/0.0.2560.1400@0.0.2560.1400" timestamp="1592194028709" />
+    <state x="426" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593923084977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="426" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593923084977" />
+    <state x="702" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593922953638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="702" y="256" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593922953638" />
+    <state x="1532" y="607" width="470" height="451" key="#com.intellij.tools.ToolEditorDialog" timestamp="1592212534289">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1532" y="607" width="470" height="451" key="#com.intellij.tools.ToolEditorDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1592212534289" />
+    <state x="1115" y="526" key="FileChooserDialogImpl" timestamp="1592212497704">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1115" y="526" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1592212497704" />
+    <state width="1362" height="328" key="GridCell.Tab.0.bottom" timestamp="1593924590692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593924590692" />
+    <state width="1362" height="141" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1592214867455" />
+    <state width="1362" height="328" key="GridCell.Tab.0.center" timestamp="1593924590692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593924590692" />
+    <state width="1362" height="141" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1592214867455" />
+    <state width="1362" height="328" key="GridCell.Tab.0.left" timestamp="1593924590692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593924590692" />
+    <state width="1362" height="141" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1592214867454" />
+    <state width="1362" height="328" key="GridCell.Tab.0.right" timestamp="1593924590692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593924590692" />
+    <state width="1362" height="141" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1592214867455" />
+    <state width="1362" height="328" key="GridCell.Tab.1.bottom" timestamp="1593924590692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593924590692" />
+    <state width="1362" height="328" key="GridCell.Tab.1.center" timestamp="1593924590692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593924590692" />
+    <state width="1362" height="328" key="GridCell.Tab.1.left" timestamp="1593924590692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593924590692" />
+    <state width="1362" height="328" key="GridCell.Tab.1.right" timestamp="1593924590692">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593924590692" />
+    <state x="435" y="255" width="994" height="708" key="SettingsEditor" timestamp="1593923064184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="435" y="255" width="994" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593923064184" />
+    <state x="1270" y="405" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1592212536937" />
+    <state x="972" y="527" key="com.intellij.ide.util.TipDialog" timestamp="1592193992426">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="972" y="527" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1592193992426" />
+  </component>
+</project>

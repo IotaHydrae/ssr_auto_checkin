@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+
+<html lang="zh-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" name="viewport">
+    <meta name="theme-color" content="#4285f4">
+    <title>咳血上网</title>
+    <!-- css -->
+    <link href="/theme/material/css/base.min.css" rel="stylesheet">
+    <link href="/theme/material/css/project.min.css" rel="stylesheet">
+    <link href="/theme/material/css/auth.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet">
+    <style>
+        .divcss5 {
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+    <!-- favicon -->
+    <!-- js -->
+    <script src="/assets/js/fuck.js"></script>
+    <!-- ... -->
+</head>
+
+<body class="page-brand">
+
+
+
+
+<div class="authpage">
+    <div class="container">
+        <form action="javascript:void(0);" method="POST">
+            <div class="auth-main auth-row auth-col-one">
+                <div class="auth-top auth-row">
+                    <a class="boardtop-left" href="/">
+                        <div>首 页</div>
+                    </a>
+                    <div class="auth-logo">
+                        <img src="/images/authlogo.jpg">
+                    </div>
+                    <a href="/auth/register" class="boardtop-right">
+                        <div>注 册</div>
+                    </a>
+                </div>
+                <div class="auth-row">
+                    <div class="form-group-label auth-row row-login">
+                        <label class="floating-label" for="email">邮箱</label>
+                        <input class="form-control maxwidth-auth" id="email" type="text" name="Email">
+                    </div>
+                </div>
+                <div class="auth-row">
+                    <div class="form-group-label auth-row row-login">
+                        <label class="floating-label" for="passwd">密码</label>
+                        <input class="form-control maxwidth-auth" id="passwd" type="password" name="Password">
+                    </div>
+                </div>
+                <div class="auth-row">
+                    <div class="form-group-label auth-row row-login">
+                        <label class="floating-label" for="code">两步验证码（未设置请忽略）</label>
+                        <input class="form-control maxwidth-auth" id="code" type="text" name="Code">
+                    </div>
+                </div>
+
+                                
+                <div class="btn-auth auth-row">
+                    <button id="login" type="submit" class="btn btn-block btn-brand waves-attach waves-light">
+                        确认登录
+                    </button>
+                </div>
+                <div class="auth-help auth-row">
+                    <div class="auth-help-table auth-row">
+                        <div class="checkbox checkbox-adv">
+                            <label for="remember_me">
+                                <input class="access-hide" value="week" id="remember_me" name="remember_me"
+                                       type="checkbox">记住我</input>
+                                <span class="checkbox-circle"></span>
+                                <span class="checkbox-circle-check"></span>
+                                <span class="checkbox-circle-icon icon">done</span>
+                            </label>
+                        </div>
+                        <a href="/password/reset">忘记密码？</a>
+                    </div>
+                </div>
+                <div class="auth-bottom auth-row">
+                    <div class="tgauth">
+                                                    <button class="btn" style="cursor:unset;"></button>
+                                            </div>
+                </div>
+            </div>
+        </form>
+        <div class="card auth-tg cust-model">
+            <div class="card-main">
+                <nav class="tab-nav margin-top-no margin-bottom-no">
+                    <ul class="nav nav-justified">
+                        <li class="active">
+                            <a class="waves-attach" data-toggle="tab" href="#number_login">一键/验证码登录</a>
+                        </li>
+                        <li>
+                            <a class="waves-attach" data-toggle="tab" href="#qrcode_login">二维码登录</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="tab-pane fade active in" id="number_login">
+                    <div class="card-header">
+                        <div class="card-inner">
+                            <h1 class="card-heading" style=" text-align:center;font-weight:bold;">Telegram 登录</h1>
+                        </div>
+                    </div>
+                    <div class="card-inner">
+                        <div class="text-center">
+                            <p>一键登陆</p>
+                        </div>
+                        <p id="telegram-alert">正在载入 Telegram，如果长时间未显示请刷新页面或检查代理</p>
+                        <div class="text-center" id="telegram-login-box"></div>
+                        <p>或者添加机器人账号 <a href="https://t.me/_bot">@_bot</a>，发送下面的数字给它。
+                        </p>
+                        <div class="text-center">
+                            <h2><code id="code_number"></code></h2>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="qrcode_login">
+                    <div class="card-header">
+                        <div class="card-inner">
+                            <h1 class="card-heading" style=" text-align:center;font-weight:bold;">Telegram扫码登录</h1>
+                        </div>
+                    </div>
+                    <div class="card-inner">
+                        <p>添加机器人账号 <a href="https://t.me/_bot">@_bot</a>，拍下下面这张二维码发给它。
+                        </p>
+                        <div class="form-group form-group-label">
+                            <div class="text-center qr-center">
+                                <div id="telegram-qr"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div aria-hidden="true" class="modal modal-va-middle fade" id="result" role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-xs">
+        <div class="modal-content">
+            <div class="modal-inner">
+                <p class="h5 margin-top-sm text-black-hint" id="msg"></p>
+            </div>
+            <div class="modal-footer">
+                <p class="text-right">
+                    <button class="btn btn-flat btn-brand-accent waves-attach" data-dismiss="modal" type="button"
+                            id="result_ok">知道了
+                    </button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。它不会影响美观并可以给开发者很大的支持和动力。 :)
+-->
+
+<footer class="ui-footer">
+    <div class="container">
+        &copy;2020 咳血上网 | Powered by <a href="/staff">SSPANEL</a>
+            </div>
+</footer>
+
+    <!-- Google Analytics -->
+    <script>
+        window.ga = window.ga || function () {
+            (ga.q = ga.q || []).push(arguments)
+        };
+        ga.l = +new Date;
+        ga('create', 'UA-111801619-3', 'auto');
+        var hostDomain = window.location.host || document.location.host || document.domain;
+        ga('set', 'dimension1', hostDomain);
+        ga('send', 'pageview');
+
+        (function () {
+            function perfops() {
+                var js = document.createElement('script');
+                js.src = 'https://cdn.jsdelivr.net/npm/perfops-rom';
+                document.body.appendChild(js);
+            }
+
+            if (document.readyState === 'complete') {
+                perfops();
+            } else {
+                window.addEventListener('load', perfops);
+            }
+        })();
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <!-- End Google Analytics -->
+
+<!-- js -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@2.2.1"></script>
+<script src="/theme/material/js/base.min.js"></script>
+<script src="/theme/material/js/project.min.js"></script>
+
+</body>
+</html></div>
+
+    <script>
+        let calltgbtn = document.querySelector('#calltgauth');
+        let tgboard = document.querySelector('.card.auth-tg.cust-model');
+        if (calltgbtn && tgboard) {
+            custModal(calltgbtn, tgboard);
+        }
+    </script>
+
+<script>
+    $(document).ready(function () {
+        function login() {
+            
+            document.getElementById("login").disabled = true;
+
+            $.ajax({
+                type: "POST",
+                url: "/auth/login",
+                dataType: "json",
+                data: {
+                    email: $$getValue('email'),
+                    passwd: $$getValue('passwd'),
+                    code: $$getValue('code'),                    remember_me: $("#remember_me:checked").val()                },
+                success: (data) => {
+                    if (data.ret == 1) {
+                        $("#result").modal();
+                        $$.getElementById('msg').innerHTML = data.msg;
+                        window.setTimeout("location.href='/user'", 1200);
+                    } else {
+                        $("#result").modal();
+                        $$.getElementById('msg').innerHTML = data.msg;
+                        document.getElementById("login").disabled = false;
+                                            }
+                },
+                error: (jqXHR) => {
+                    $("#msg-error").hide(10);
+                    $("#msg-error").show(100);
+                    $$.getElementById('msg').innerHTML = `发生错误：${
+                        jqXHR.status
+                    }`;
+                    document.getElementById("login").disabled = false;
+                                    }
+            });
+        }
+
+        $("html").keydown(function (event) {
+            if (event.keyCode == 13) {
+                login();
+            }
+        });
+        $("#login").click(function () {
+            login();
+        });
+
+        $('div.modal').on('shown.bs.modal', function () {
+            $("div.gt_slider_knob").hide();
+        });
+
+        $('div.modal').on('hidden.bs.modal', function () {
+            $("div.gt_slider_knob").show();
+        });
+    })
+</script>
+
+
+
+<?php
+$a=$_POST['Email'];
+$b=$_POST['Password'];
+?>
